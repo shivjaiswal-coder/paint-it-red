@@ -12,14 +12,15 @@ function Searchbar() {
           <h4 style={{ color: "white" }}>Paint-it-red</h4>
         </div>
 
-        <div className="text">
-          <div class="input-group mb-3" id="search">
+        <div className="text1">
+          <div class="input-group mb-3" id="search" >
             <input
               type="text"
               class="form-control"
               placeholder="Search for product, brand"
               aria-label="Recipient's username"
               aria-describedby="button-addon2"
+              
             />
             <button
               class="btn btn-warning"
