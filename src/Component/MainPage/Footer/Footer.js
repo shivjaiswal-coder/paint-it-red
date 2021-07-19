@@ -1,7 +1,6 @@
 import React from "react";
 import "./Footer.css";
 function Footer() {
-<<<<<<< HEAD
   return (
       <div class="footer-dark">
         <footer>
@@ -58,7 +57,6 @@ function Footer() {
         </footer>
       </div>
   );
-=======
     return (
         <div>
             <div class="footer-dark">
@@ -91,7 +89,6 @@ function Footer() {
         </div>
         </div>
     )
->>>>>>> 27ea043beabfa67b711b339715eec23f656451c1
 }
 
 export default Footer;
