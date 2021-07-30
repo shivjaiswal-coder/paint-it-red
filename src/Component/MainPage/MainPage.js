@@ -3,6 +3,7 @@ import Footer from "./Footer/Footer";
 import Mainbar from "./Mainbar/Mainbar";
 import Navlinks from "./Navlinks/Navlinks";
 import Searchbar from "./Searchbar/Searchbar";
+import Login from "../LoginPage/Login";
 
 function MainPage() {
   return (
@@ -10,6 +11,7 @@ function MainPage() {
       <Searchbar />
       <Navlinks />
       <Mainbar />
+      {/* <Login/> */}
       <Footer />
     </>
   );

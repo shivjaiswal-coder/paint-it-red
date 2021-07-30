@@ -33,7 +33,7 @@ function Searchbar() {
         </div>
 
         <div className="user">
-          <h4 style={{ color: "white" }}>Sign In</h4>
+        <h4 style={{ color: "white" }}>Sign In</h4>
         </div>
 
         <div className="cart" id="cart">

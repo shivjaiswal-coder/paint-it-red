@@ -1,0 +1,98 @@
+.si1 {
+    width: 350px;
+    height: 310px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-style: groove;
+    border-radius: 3px;
+}
+.si2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.si3{
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.si4{
+    margin-top: 5px;
+    width: 300px;
+    border-radius: 3px;
+    border-color:#f0c14b ;
+}
+.si5{background-image: linear-gradient(to right, #f0c14b 0%, #FFD194  51%, #f0c14b  100%)}
+.si5{
+    margin-top: 18px;
+    width: 300px;
+    background-color: #f0c14b;
+    padding-top: 3px;
+    border-radius: 3px;
+    padding-bottom: 3px;
+    transition: 0.4s;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+}
+.si5:hover{
+    background-position: right center;
+    text-decoration: none;
+}
+
+.si6{background-image: linear-gradient(to right, #7474BF 0%, #348AC7  51%, #7474BF  100%)}
+.si6{
+    margin-top: 19px;
+    /* margin-left: 30px; */
+    width: 145px;
+    border-radius: 3px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+    display: inline;
+}
+.si6:hover{
+    background-position: right center;
+    text-decoration: none;
+}
+.si7{background-image: linear-gradient(to right, #7474BF 0%, #348AC7  51%, #7474BF  100%)}
+.si7{
+    margin-top: 19px;
+    margin-left:10px;
+    width: 145px;
+    border-radius: 3px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+    display: inline;
+}
+.si7:hover{
+    background-position: right center;
+    text-decoration: none;
+}
+.si8{background-image: linear-gradient(to right, #f0c14b 0%, #FFD194  51%, #f0c14b  100%)}
+.si8{
+    width: 350px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 17px;
+    margin-left: 466px;
+    background-color:#f0c14b ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+    transition: 0.4s;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+}
+.si8:hover{
+    background-position: right center;
+    text-decoration: none;
+}
