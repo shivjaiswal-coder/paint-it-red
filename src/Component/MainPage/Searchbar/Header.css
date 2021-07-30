@@ -1,19 +1,58 @@
 .container_fluid{
-    background: yellowgreen;
+    background:#0a3d62;
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     font-size: 20px;
+    
+  }
+
+  a{
+      text-decoration:none;
+      color: #fff;
+  }
+  a:hover{
+      border-color:white;
+      color: #fff;
   }
   
-  input{
+ #search  input{
     width: calc(100% - 20%);
+    border-style: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding:5px;
+  }
+
+  #search button{
+      border-style: none;
+      background:orange;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      padding:5px;
+      width:10%;
+  }
+
+  #hams{
+      display:none;
   }
   
   @media only screen and (max-width: 840px) {
-    #items{
-      display: none;
+
+    #search button{
+      padding-right: 25px;
     }
+
+    #items{
+        display: none;
+    }
+
+    #hams{
+        display: inline;
+        color: #fff;
+        cursor:pointer;
+    }
+
   }
   
