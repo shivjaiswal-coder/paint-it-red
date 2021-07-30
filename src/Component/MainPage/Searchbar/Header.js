@@ -6,25 +6,37 @@ import "./Header.css";
 
 function Header() {
   return (
-    <div className="Header-container">
-      <nav className="header">
+    <div class="container_fluid">
+        <div class="row">
 
-        <img className="header__logo" src="./images/Amazon logo.png" alt="logo"/>
+          <div class="col-2">
+            <a href="#">Paint-it-Red</a>
+          </div>
 
-        <div className="header__search">
-          <input type="text" className="header__searchInput" />
-          <FiSearch className="header__searchIcon" />
+          <div class="col-6" id="search">
+            <input type="text" name="" value=""/>
+            <button type="button" name="button">O</button>
+          </div>
+
+          <div class="col-4" >
+            <div class="row" id="items">
+              <div class="col">
+                <a href="#">Hi User</a>
+              </div>
+              <div class="col">
+                <a href="#">Orders</a>
+              </div>
+              <div class="col">
+                <a href="#">Cart</a>
+              </div>
+            </div>
+
+            </div>
+
         </div>
 
-        <Link to="/" className="header__link">
-        <div className="header__option">
-            <span className="header__optionLineOne">Hello, User</span>
-            <span className="header__optionLineTwo">Sign In or Sign Out</span>
-        </div>
-        </Link>
+      </div>
 
-      </nav>
-    </div>
   );
 }
 
