@@ -17,7 +17,7 @@ function Header() {
           </div>
 
           <div class="col-5" id="search">
-            <input type="text" name="" value=""/>
+            <input type="text" name="" placeholder="Search for your favorite paintings..."/>
             <button type="button" name="button"><BiSearch/></button>
           </div>
 
