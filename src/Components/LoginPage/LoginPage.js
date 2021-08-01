@@ -1,6 +1,6 @@
 import React from 'react'
-import './Login.css'
-function Login() {
+import './LoginPage.css'
+function LoginPage() {
     return (
         <div>
         <div class="si1">
@@ -30,4 +30,5 @@ function Login() {
         </div>
     )
 }
-export default Login
+
+export default LoginPage
