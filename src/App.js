@@ -16,7 +16,7 @@ function App() {
         <Route path="/OrderPage" component={OrderPage} exact><OrderPage/></Route>
         <Route path="/CartPage" component={CartPage} exact><CartPage/></Route>
       </Switch>
-      <Footer/>
+      {/* <Footer/> */}
     </Router>
   );
 }

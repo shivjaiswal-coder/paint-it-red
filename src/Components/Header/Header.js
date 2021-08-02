@@ -1,52 +1,72 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiShoppingCart } from "react-icons/fi";
-import './Header.css';
+import "./Header.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaSearch } from "react-icons/fa";
+import Container from "react-bootstrap/Container";
+import Button from "react-bootstrap/Button";
+import InputGroup from "react-bootstrap/InputGroup";
+import FormControl from "react-bootstrap/FormControl";
 function Header() {
+  const [isMobile, setIsMobile] = useState(false);
 
-    const [isMobile, setIsMobile] = useState(false);
+  return (
+    <nav className="navbar">
+      <Container fluid>
 
-    return (
-        <nav className="navbar">
+          <Link to="/" className="brand">
+            <span className="logo" onClick={() => setIsMobile(false)}>
+              Paint-it-Red
+            </span>
+          </Link>
 
-            <Link to="/" className="brand">
-                <span className="logo" onClick={() => setIsMobile(false)}>
-                    Paint-it-Red
-                </span>
-            </Link>
 
-            
-                <span className={isMobile ? "show-search" : "search-box"}>
-                    <input type="text" />
-                    <button type="submit"><FaSearch style={{textAlign:"center", fontSize:""}}/></button>
-                </span>
 
-                <ul className={isMobile ? "nav-links-mobile" : "nav-links"} onClick={() => setIsMobile(false)}>
+        <span className={isMobile ? "show-search" : "search-box"}>
+          <InputGroup>
+            <FormControl
+              aria-label="Example text with button addon"
+              aria-describedby="basic-addon1"
+            />
+            <Button variant="outline-secondary" id="button-addon1">
+              <FaSearch />
+            </Button>
+          </InputGroup>
+        </span>
 
-                    <Link to="/LoginPage" className="Login">
-                        <li>Login</li>
-                    </Link>
+        <ul
+          className={isMobile ? "nav-links-mobile" : "nav-links"}
+          onClick={() => setIsMobile(false)}
+        >
+          <Link to="/LoginPage" className="Login">
+            <li>Login</li>
+          </Link>
 
-                    <Link to="/OrderPage" className="Order">
-                        <li>Orders</li>
-                    </Link>
+          <Link to="/OrderPage" className="Order">
+            <li>Orders</li>
+          </Link>
 
-                    <Link to="/CartPage" className="Cart">
-                    <li><FiShoppingCart/>Cart</li>
-                    </Link>
-                    </ul>
+          <Link to="/CartPage" className="Cart">
+            <li>
+              <FiShoppingCart />
+              Cart
+            </li>
+          </Link>
+        </ul>
 
-                    <button className="mobile-menu-icon" onClick={() => setIsMobile(!isMobile)}>
-                        {isMobile ? (<AiOutlineClose/>) : (<GiHamburgerMenu/>)}
-                    </button>
+        <button
+            className="mobile-menu-icon"
+            onClick={() => setIsMobile(!isMobile)}
+          >
+            {isMobile ? <AiOutlineClose /> : <GiHamburgerMenu />}
+          </button>
 
-                
 
-        </nav>
-    )
+      </Container>
+    </nav>
+  );
 }
 
-export default Header
+export default Header;

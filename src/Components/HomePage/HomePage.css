@@ -1,0 +1,23 @@
+.carousel-container{
+    margin-top: 10px;
+}
+
+.top_deal{
+    margin-top:10px;
+}
+
+.top_deal_header{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.top_deal_header h3{
+    margin-left: 10px;
+}
+
+.top_deal_header button{
+    margin-right: 10px;
+}
