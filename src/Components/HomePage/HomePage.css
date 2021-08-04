@@ -1,25 +1,24 @@
-.body123{
-    background-color: #f1f3f6;
-}
-.carousel-container{
-    margin-top: 10px;
+/* .carousel-container{
+    margin-top: 5px;
+} */
+
+.carousel-container img{
+    height: 400px;
+    width: 1400px;
 }
 
 .top_deal{
-    margin-top:30px;
+    /* margin-top:10px; */
     display: block;
+    background-color: #f1f3f6;
 }
 
 .top_deal_header{
     display: flex;
     justify-content:space-between;
     align-items: flex-end;
-    /* background-color: antiquewhite; */
     background-color: white;
     padding: 10px;
-    /* border: thistle; */
-    /* border-style: dashed; */
-    /* border-bottom:linen; */
     padding: 15px 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
