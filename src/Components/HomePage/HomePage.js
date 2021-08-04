@@ -9,8 +9,8 @@ import "slick-carousel/slick/slick-theme.css";
 function HomePage() {
   var settings = {
     dots: true,
-    infinite: false,
-    speed: 500,
+    infinite: true,
+    speed: 2000,
     slidesToShow: 4,
     slidesToScroll:4,
     initialSlide: 0,
