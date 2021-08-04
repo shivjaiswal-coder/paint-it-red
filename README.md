@@ -27,5 +27,5 @@ This project was bootstrapped with Create React App.
 5. Responsive website to increase scalability.
 
 
-
+### HomePage layout
 ![Screenshot (18)](https://user-images.githubusercontent.com/53303541/128249394-b40ad4a3-52ab-47a0-97c1-96284207733c.png)
