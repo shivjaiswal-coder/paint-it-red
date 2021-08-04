@@ -18,6 +18,7 @@ function HomePage() {
     autoplayspeed: 9000,
   };
   return (
+    <div className="body123">
       <Container fluid>
       <div className="carousel-container">
         <Carousel fade>
@@ -69,7 +70,7 @@ function HomePage() {
           <div className="top_deal_items">
             <Slider {...settings}>
             <div>
-              <a><img src="#"/></a>
+              <a><img src="https://rukminim1.flixcart.com/image/300/300/k3dc7m80pkrrdj/slipper-flip-flop/5/r/q/7-sl5105-kraasa-original-imaetfqytsgg8n8h.jpeg?q=70"/></a>
             </div>
             <div>
               <a><img src="#"/></a>
@@ -107,7 +108,7 @@ function HomePage() {
           <div className="top_deal_items">
           <Slider {...settings}>
             <div>
-              <a><img src="#"/></a>
+              <a><img src="https://rukminim1.flixcart.com/image/300/300/kjn6qvk0-0/shoe/d/c/v/ck2669-001nike-12-nike-black-white-smoke-grey-original-imafz5vwe5t53z3t.jpeg?q=70"/></a>
             </div>
             <div>
               <a><img src="#"/></a>
@@ -136,17 +137,8 @@ function HomePage() {
           </Slider>
           </div>
       </div>
-      {/* <div className="top_deal">
-          <div className="top_deal_header">
-              <h3>New Paintings</h3>
-              <Button variant="primary">View All</Button>
-          </div>
-          <div className="top_deal_items">
-
-          </div>
-      </div> */}
     </Container>
-
+  </div>
   );
 }
 

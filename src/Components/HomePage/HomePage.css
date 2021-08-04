@@ -1,9 +1,13 @@
+.body123{
+    background-color: #f1f3f6;
+}
 .carousel-container{
     margin-top: 10px;
 }
 
 .top_deal{
     margin-top:30px;
+    display: block;
 }
 
 .top_deal_header{
@@ -13,6 +17,11 @@
     /* background-color: antiquewhite; */
     background-color: white;
     padding: 10px;
+    /* border: thistle; */
+    /* border-style: dashed; */
+    /* border-bottom:linen; */
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .top_deal_header h3{
@@ -22,4 +31,3 @@
 .top_deal_header button{
     margin-right: 10px;
 }
-
