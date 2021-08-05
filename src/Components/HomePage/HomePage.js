@@ -59,7 +59,7 @@ function HomePage() {
               <Button variant="primary">View All</Button>
           </div>
 
-          <Container id="top_deal_items">
+          <Container fluid id="top_deal_items">
             <TopDeals/>
           </Container>
 
@@ -72,8 +72,8 @@ function HomePage() {
               <Button variant="primary">View All</Button>
           </div>
 
-          <Container id="top_deal_items">
-          <NewPainting/>
+          <Container fluid id="top_deal_items">
+            <NewPainting/>
           </Container>
 
       </div>

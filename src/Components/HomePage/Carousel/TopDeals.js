@@ -7,15 +7,13 @@ export default class MultipleItems extends Component {
   render() {
     const settings = {
       dots: true,
-      infinite: true,
+      infinite: false,
       speed: 500,
       slidesToShow: 7,
       slidesToScroll: 7
     };
     return (
-      
-        
-          <Container>
+          <Container fluid>
               <Slider {...settings}>
 
               <div className="carousel-items">
