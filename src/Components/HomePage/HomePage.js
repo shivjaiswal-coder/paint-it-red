@@ -9,13 +9,13 @@ import TopDeals from './Carousel/TopDeals';
 import NewPainting from './Carousel/NewPainting';
 function HomePage() {
   return (
-      <div className="container_fluid">
-      <div className="carousel-container">
-        <Carousel fade>
-          <Carousel.Item>
+    <div className="container_fluid">
+      <div className="carousel-container"> 
+       <Carousel>
+          <Carousel.Item interval={1000}>
             <img
               className="d-block w-100"
-              src="https://source.unsplash.com/user/erondu/1400x400"
+              src="https://images.unsplash.com/photo-1577720580479-7d839d829c73?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHBhaW50aW5nc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
               alt="First slide"
             />
             <Carousel.Caption>
@@ -23,10 +23,10 @@ function HomePage() {
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item interval={500}>
             <img
               className="d-block w-100"
-              src="https://source.unsplash.com/user/erondu/1400x400"
+              src="https://images.unsplash.com/photo-1608385836882-63997d3deca1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fHBhaW50aW5nc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
               alt="Second slide"
             />
 
@@ -38,7 +38,7 @@ function HomePage() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://source.unsplash.com/user/erondu/1400x400"
+              src="https://images.unsplash.com/photo-1608394078695-623b123d019e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjN8fHBhaW50aW5nc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
               alt="Third slide"
             />
 
@@ -49,8 +49,8 @@ function HomePage() {
               </p>
             </Carousel.Caption>
           </Carousel.Item>
-        </Carousel>
-      </div>
+        </Carousel> 
+    </div>
 
       <div className="top_deal">
 
