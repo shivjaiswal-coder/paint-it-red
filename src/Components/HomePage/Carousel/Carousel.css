@@ -16,8 +16,10 @@
 }
 
 .carousel-items ul{
+    margin-top: 5px;
     list-style: none;
-    margin-right: 20px;
+    margin-right: 50px;
+    text-align: center;
 }
 
 .carousel-items ul li:nth-child(2){
