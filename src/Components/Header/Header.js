@@ -29,6 +29,7 @@ function Header() {
             <FormControl
               aria-label="Example text with button addon"
               aria-describedby="basic-addon1"
+              style={{height: "40px"}}
             />
             <Button variant="outline-secondary" id="button-addon1">
               <FaSearch />
