@@ -19,7 +19,7 @@
     margin-top: 5px;
     list-style: none;
     margin-right: 50px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .carousel-items ul li:nth-child(2){

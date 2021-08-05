@@ -11,7 +11,7 @@ function HomePage() {
   return (
     <div className="container_fluid">
       <div className="carousel-container"> 
-       <Carousel>
+       <Carousel fade>
           <Carousel.Item interval={1000}>
             <img
               className="d-block w-100"
